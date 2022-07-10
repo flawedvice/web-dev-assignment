@@ -1,0 +1,224 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+/* IMPORTS */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.6rem 12rem;
+    background-color: #599AFD;
+    color: white;
+}
+header nav a {
+    display: inline-block;
+    margin: 0 2rem;
+}
+aside {
+    border-radius: 2rem;
+    margin: 4rem 10rem auto 0;
+    padding: 2rem 4rem;
+    width: fit-content;
+    background-color: #599AFD;
+    color: #FFFFFF;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main h1 {
+    margin-top: 8rem;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10rem auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    max-width: 30%;
+    background-color: #599AFD;
+    color: #FFFFFF;
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+label {
+    font-size: 2.2rem;
+    margin: 2rem 4rem;
+}
+input {
+    margin: auto 0;
+    margin-right: 4rem;
+    width: 36rem;
+    height: 4rem;
+}
+textarea {
+    margin: 2rem 4rem;
+    width: calc(100% - 8rem);
+}
+input, textarea {
+    font-size: 2rem;
+    font-family: inherit;
+}
+section {
+    margin: 20rem auto;
+    padding: 8rem auto;
+}
+section h2 {
+    display: block;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20rem;
+    padding: 4rem 8rem;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+footer section {
+    margin: 8rem auto;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #0056d8;
+}
+h1 {
+    font-size: 3.2rem;
+}
+h2 {
+    font-size: 2.8rem;
+}
+h3 {
+    font-size: 2.6rem;
+}
+h4 {
+    font-size: 2.4rem;
+}
+p {
+    font-weight: 400;
+    font-size: 2rem;
+}
+button:hover {
+    cursor: pointer;
+}
+#buy-btn {
+    z-index: 2;
+    position: absolute;
+    top: 14rem;
+    right: 8rem;
+    border: .2rem solid #FFFFFF;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #599afd;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    transition: border .6s, background-color .6s, color .6s;
+}
+#buy-btn:hover {
+    border: .2rem solid #599afd;
+    background-color: #FFFFFF;
+    color: #599afd;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+    height: 80vh;
+}
+.hero img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main-text {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem auto;
+    max-width: 80%;
+}
+
+.banner {
+    padding: 6rem 0 4rem;
+    background-color: #599AFD;
+    color: #FFFFFF;
+}
+
+.card-img {
+    position: relative;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 16rem;
+}
+.card-img-article {
+    position: relative;
+    border-radius: 2rem;
+    width: 36rem;
+}
+.card-img-article img {
+    z-index: -1;
+    width: 100%;
+}
+.card-img-article h4 {
+    bottom: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.circle-img {
+    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+}
+.icon {
+    display: inline-block!important;
+    visibility: visible;
+    border-radius: 50%;
+    margin: 0 2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    color: #FFF;
+}
+.icon:first-of-type {
+    margin-left: 0;
+}
+#details-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+}
